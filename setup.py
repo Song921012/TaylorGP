@@ -128,15 +128,15 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
     install_requires=["scikit-learn>=0.22.1",
-    			"numpy>=1.19.*",
-    			"sympy>=1.7.*",
-    			"pandas>=1.2.*",
+    			"numpy>=1.19",
+    			"sympy>=1.7",
+    			"pandas>=1.2",
     			"scipy>=1.6.2",
     			"joblib>=0.13.0",
-    			"cython>=0.29.*",
-    			"pandas>=1.2.*",
-    			"pytest>=7.*",
-    			"pyyaml>=5.*"],  # Optional
+    			"cython>=0.29",
+    			"pandas>=1.2",
+    			"pytest>=7",
+    			"pyyaml>=5"],  # Optional
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
